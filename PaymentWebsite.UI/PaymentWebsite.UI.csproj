@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaymentWebsite.Business\PaymentWebsite.Business.csproj" />
+    <ProjectReference Include="..\PaymentWebsite.Data\PaymentWebsite.Data.csproj" />
+    <ProjectReference Include="..\PaymentWebsite.Entity\PaymentWebsite.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+</Project>
